@@ -40,6 +40,8 @@ function playRound ( playerSelection, computerSelection ) {
   } else if ( playerSelection == 'rock' && computerSelection == '✂' ) {
     playerScore++;
     return 'You win! 💎 beats ✂';
+  } else {
+    return 'Draw'
   }
 
 }
